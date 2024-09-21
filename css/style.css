@@ -25,49 +25,61 @@ body {
   font-size: 100%;
 }
 
-h1 {
-  font-size: 12.25em;
+h3{
+  font-size: 1em;
+  font-weight:normal;
   line-height: 1em;
   letter-spacing: .03em;
   margin-bottom: 2px;
+
 }
 
-h2 {
-  font-size: 5.1em;
+h2{
+  font-weight: 5.0em;
   line-height: 1em;
   letter-spacing: .03em;
   margin-bottom: 2px;
-}
+  font-weight: bold;
+  text-decoration: #000;
 
-h3 {
-  font-weight: normal;
-  letter-spacing: .3em;
-  margin-bottom: 18px;
-  line-height: 1em;
 }
 
 h4 {
-  font-weight: normal;
+  font-weight: 1em;
   font-size: .7em;
   letter-spacing: .4em;
   margin-bottom: 9px;
   line-height: 1em;
 }
+h1{
+  font-weight: 50.0em;
+  line-height: 1em;
+  letter-spacing: .03em;
+  margin-bottom: 2px;
+  text-decoration: #000;
+  font-size: 130px;
+}
 
-p {
+
+p{
   font-size: .9em;
   line-height: 1.8em;
   letter-spacing: .103em;
   margin-bottom: 15px;
+  text-decoration: black;
+  color: #000;
+  margin-top: 2%;
 }
 
-span {
+#span {
   display: inline-block;
   font-size: 1em;
   line-height: 1em;
   letter-spacing: .35em;
   vertical-align: top;
-  padding-top: 10px;
+  padding-top: 5px;
+  color: #000;
+  padding-left: 10%;
 }
 
 img {
@@ -109,4 +121,9 @@ img {
   background: rgba(247,211,27,1);
   margin-left: 163px;
   padding-top: 25px;
+  
+}
+#header-box {
+  text-decoration: #000;
+  font-weight: bold;
 }
